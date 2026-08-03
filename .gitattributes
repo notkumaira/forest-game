@@ -10,7 +10,3 @@
 *.anim       merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
 *.mat        merge=unityyamlmerge eol=lf
-
-# 2. retroactively move existing binaries into LFS (rewrites history)
-git lfs install
-git lfs migrate import --include="*.png,*.ttf"
